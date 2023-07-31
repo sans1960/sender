@@ -63,6 +63,9 @@ return [
             //     'timeout' => 5,
             // ],
         ],
+        'mailersend' => [
+            'transport' => 'mailersend',
+         ],
 
         'sendmail' => [
             'transport' => 'sendmail',
